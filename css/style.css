@@ -1,0 +1,381 @@
+/* +++++++++++++++++++++++++++++
+++++++++++++Global CSS Start+++++
+++++++++++++++++++++++++++++++++++ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+
+   
+   
+}
+a, a:hover{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:1140px;
+    margin: auto;
+
+}
+
+/* +++++++++++++++++++++++++++++
+++++++++++++Global CSS End +++++
+++++++++++++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++++++
++++++ Header Code Start ++++++++
++++++++++++++++++++++++++++++++++ */
+.header-section{
+    width: 100%;
+    background: #F0FFF0;
+    padding: 20px 0px;
+}
+.header-section .navbar{
+    display: flex;
+    align-items: center;
+
+}
+.header-section .navbar .logo{
+    
+flex-basis: 15%;
+}
+.header-section .navbar .logo img{
+    
+    width: 100%;
+    height: auto;
+    }
+.header-section .navbar .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.header-section .navbar .nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+.header-section .navbar .nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.header-section .navbar .btn{
+    flex-basis: 15%;  
+
+}
+.header-section .navbar .btn a{
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid#21B573;
+    border-radius: 33px;
+    color: white;
+    
+
+}
+/* +++++++++++++++++++++++++++++
++++++ Header Code End ++++++++
++++++++++++++++++++++++++++++++++ */
+
+
+/* +++++++++++++++++++++++++++++
++++++ Banner Code Start ++++++++
++++++++++++++++++++++++++++++++++ */
+.banner{
+    width: 100%;
+    background: #F0FFF0; ;
+}
+
+.banner .banner-inner {
+    display: flex;
+
+}
+
+.banner .banner-inner .content{
+    flex-basis: 50%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+
+}
+
+.banner .banner-inner span{
+    color: #FD511A
+    
+
+}
+.banner .banner-inner h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+.banner .banner-inner h1 span{
+    color: #21B573
+    
+
+}
+.banner .banner-inner p{
+    line-height: 36px;
+    margin-top: 20px;
+    
+
+}
+.banner .banner-inner .banner-btn {
+    
+    margin-top: 45px;  
+
+}
+.banner .banner-inner .banner-btn a{
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid#000;
+    border-radius: 33px;
+    color: white;
+       
+
+}
+
+
+.banner .banner-inner .img-part{
+    flex-basis: 50%;
+
+}
+.banner .banner-inner .img-part img{
+
+    width:95%;
+    height:auto;
+
+
+}
+
+
+/* +++++++++++++++++++++++++++++
++++++ Banner Code End ++++++++
++++++++++++++++++++++++++++++++++ */
+
+
+/* +++++++++++++++++++++++++++++
++++++ Feature Code Start ++++++++
++++++++++++++++++++++++++++++++++ */
+.feature {
+    width:100%;
+    padding:50px;
+    
+}
+
+.feature .container .feature-inner {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.feature .container .feature-inner .f-box{
+    
+    padding: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.feature .container .feature-inner .f-box:hover{
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,.10);
+    transition: 0.3s;
+    
+    
+}
+
+.feature .container .feature-inner .f-box img{
+
+    width: 66px;
+    height:85px;
+
+    
+}
+
+
+/* +++++++++++++++++++++++++++++
++++++ Feature Code End ++++++++
++++++++++++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++++++
++++++ Online-course  Section Code Start ++++++++
++++++++++++++++++++++++++++++++++ */
+
+.courses{
+    
+    width: 100%;
+    padding: 50px  0px;
+  
+
+}
+.title{
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.courses-inner{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.c-card{
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,.10);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 0px 10px;
+}
+
+.c-card img{
+    width: 331px;
+    height: 234px;
+
+}
+.c-card h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+ 
+ }
+.c-card p{
+   padding-bottom: 25px;
+   font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.c-card .c-btn a{
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid#21B573;
+    border-radius: 33px;
+    color: white;
+    margin: 50px 0px;
+
+}
+.c-footer{
+    display: flex;
+    padding-top: 50px;
+
+}
+.c-footer .left{
+    padding-right: 60px;
+    
+}
+.c-footer .left img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.c-footer .left span{
+    
+}
+.c-footer .right{
+    
+}
+.c-footer .right img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.c-footer .right span{
+    
+}
+/* +++++++++++++++++++++++++++++
++++++ Online-course Section Code End ++++++++
++++++++++++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++++++
++++++ Testimonial Section Code Start ++++++++
++++++++++++++++++++++++++++++++++ */
+.testimonial{
+    width: 95%;
+    height: auto;
+
+}
+.testimonial-section{
+    display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   height: auto;
+
+}
+   .testimonial .title{
+padding-top: 50px;
+padding-left: 100px;
+   
+}
+.testimonial-section .img img{
+    width: 120px;
+    height: 120px;
+    
+    padding-left: 100px;
+
+
+}
+
+.testimonial-section .paragraph p{
+    padding-right: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+/* +++++++++++++++++++++++++++++
++++++ Testimonial Section Code End ++++++++
++++++++++++++++++++++++++++++++++ */
+
+
+
+/* +++++++++++++++++++++++++++++
++++++ Footer Section Code Start ++++++++
++++++++++++++++++++++++++++++++++ */
+.footer{
+    background-color: #282531;
+    color:#FFFFFF;
+    width: 100%
+    height: auto;
+   margin-top: 100px;
+   
+
+}
+.footer .footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 70px;
+   
+}
+.footer .footer-section .box {
+   
+}
+.footer .footer-section .box  h6{
+   
+}
+.footer .footer-section .box  p{
+    line-height: 30px;
+   
+}
+.footer .container .text{
+    text-align: center;
+    color:#CDCDCD;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+}
+
+
+
+
+/* +++++++++++++++++++++++++++++
++++++ Footer Section Code End ++++++++
++++++++++++++++++++++++++++++++++ */
